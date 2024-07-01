@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://sslucasmv.github.io/reactApp",
+  "homepage": "https://sslucasmv.github.io/entrega1reactLucasVolpe/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
