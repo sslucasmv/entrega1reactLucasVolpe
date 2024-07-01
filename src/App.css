@@ -1,0 +1,122 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.separador {
+  margin-right: 10px;
+}
+
+.twitter-widget {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+article.twitter-card {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 0.8rem;
+  justify-content: space-between;
+}
+
+article.twitter-card header {
+  display: flex;
+  align-items: center;
+}
+
+article.twitter-card .info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  text-align: left;
+}
+
+
+article.twitter-card header span {
+  opacity: .6;
+}
+
+article.twitter-card header img {
+  width: 48px;
+  height: 48px;
+  border-radius: 1000px;
+}
+
+aside.btn {
+  display: flex;
+  justify-content: end;
+}
+/*
+button.btn-tw {
+  border:0;
+  padding: 6px 16px;
+  font-weight: bold;
+  font-size: 14px;
+}*/
+
+.twitter-follow-btn {
+  background-color: white;
+  color: black;
+  border: 1px solid #f8f8f8; /* Twitter blue */
+  border-radius: 20px; /* Rounded corners */
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.twitter-follow-btn:hover {
+  background-color: #1DA1F2;
+  color: white;
+  border-color: #1DA1F2;
+}
+
+.twitter-follow-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(29, 161, 242, 0.3);
+}
+
+
+
